@@ -15,7 +15,7 @@ words.match('bl?ck')
 words.anagram('clones')
 ```
 
-###wordle.py
+### wordle.py
 Without parameter, it chooses a random word and then tries to solve it.
 ```bash
 python wordle.py
@@ -36,14 +36,14 @@ stump
 stock !
 ```
 
-###woordle.py
+### woordle.py
 Same as wordle.py but uses the dutch word list from the nl folder.
 
-###game.py
+### game.py
 Contains the logic to play a game (play_game), check a given guess (guess) and my best algorithm so far to come up with 
 the best guess (guess_word).
 
-###solve_all.py
+### solve_all.py
 The script that runs play_game on the full list of words with the given word guessing function.
 My goal: that this script returns 100% wins. With the current guess_word function from game.py as the guess_func it 
 reaches 99,6%.
