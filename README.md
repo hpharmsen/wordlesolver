@@ -1,5 +1,5 @@
 # wordlesolver
-Algorithm that tries to solve all wordle puzzles within 6 tries.
+Algorithm that tries to solve all [wordle](https://www.powerlanguage.co.uk/wordle/) puzzles within 6 tries.
 
 The project consists of a couple of parts.
 
@@ -38,7 +38,8 @@ stock !
 
 ### woordle.py
 Same as wordle.py but uses the dutch word list from the nl folder.
-
+A Dutch version of Wordle, called [Woordle](https://woordle.nl/) is made by Jelle Besseling.
+Code at [GitHub](https://github.com/pingiun/woordle/).
 ### game.py
 Contains the logic to play a game (play_game), check a given guess (guess) and my best algorithm so far to come up with 
 the best guess (guess_word).
